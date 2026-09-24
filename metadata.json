@@ -1,0 +1,6 @@
+{
+  "name": "Sukhan Poetry Studio",
+  "description": "Expressive Hindi & Urdu poetry reading, narration, and performance studio with male AI voices, emotion control, and ambient mixing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

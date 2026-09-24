@@ -1,0 +1,83 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Glowing golden lyre / acoustic waves of poetry -->
+    <path
+        android:pathData="M35,46 C32,50 32,58 35,62"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFD54F"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M29,40 C24,47 24,61 29,68"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFA000"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M73,46 C76,50 76,58 73,62"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFD54F"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M79,40 C84,47 84,61 79,68"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFA000"
+        android:strokeLineCap="round" />
+
+    <!-- Stylized Poetry Scroll / Book Base -->
+    <path
+        android:pathData="M38,68 C44,66 50,68 54,71 C58,68 64,66 70,68 L70,72 C64,70 58,72 54,75 C50,72 44,70 38,72 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="38"
+                android:startY="68"
+                android:endX="70"
+                android:endY="75"
+                android:type="linear">
+                <item android:color="#FFF8E1" android:offset="0.0" />
+                <item android:color="#FFE082" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Slanted Royal Feather Quill Pen & Nib -->
+    <path
+        android:pathData="M65,27 C59,28 47,38 45,54 C48,50 53,49 57,51 C54,43 59,33 65,27 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="45"
+                android:startY="27"
+                android:endX="65"
+                android:endY="54"
+                android:type="linear">
+                <item android:color="#FFE082" android:offset="0.0" />
+                <item android:color="#FFB300" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Quill shaft and golden nib tip -->
+    <path
+        android:pathData="M66,26 L46,59 L43,67 L51,64 L67,27 Z"
+        android:fillColor="#FFF8E1" />
+
+    <path
+        android:pathData="M43,67 L48,64 L46,62 Z"
+        android:fillColor="#FFD54F" />
+
+    <!-- Poetry ink droplet with golden shimmer -->
+    <path
+        android:pathData="M40,71 C40,70 41,69 41.5,70 C42,71 42,72 41,73 C40.2,73 40,72 40,71 Z"
+        android:fillColor="#FFCA28" />
+
+    <!-- Sparkle star for poetic inspiration -->
+    <path
+        android:pathData="M67,36 L68.5,40 L72.5,41.5 L68.5,43 L67,47 L65.5,43 L61.5,41.5 L65.5,40 Z"
+        android:fillColor="#FFF9C4" />
+</vector>
