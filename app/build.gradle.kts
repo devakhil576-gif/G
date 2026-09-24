@@ -1,5 +1,3 @@
-import com.google.gms.googleservices.GoogleServicesPlugin.MissingGoogleServicesStrategy
-
 plugins {
   alias(libs.plugins.android.application)
   alias(libs.plugins.kotlin.compose)
@@ -61,16 +59,11 @@ android {
   }
 }
 
-// Configure the Secrets Gradle Plugin to use .env and .env.example files.
 secrets {
   propertiesFileName = ".env"
   defaultPropertiesFileName = ".env.example"
   ignoreList.add("FIREBASE_APPCHECK_DEBUG_TOKEN")
 }
-
-// Google Services is not required for the standalone Gemini APK build.
-// The Firebase libraries remain available if the app uses them at runtime.
-googleServices { missingGoogleServicesStrategy = MissingGoogleServicesStrategy.WARN }
 
 dependencies {
   implementation(platform(libs.androidx.compose.bom))
